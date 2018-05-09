@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-babel-kit-2",
   "version": "1.0.0",
-  "homepage":"http://levibutcher.github.io/mock-twitch",
+  "homepage":"https://levibutcher.github.io/mock-twitch",
   "description": "A React mock of Twitch's website, using twitch's api",
   "main": "index.html",
   "scripts": {
