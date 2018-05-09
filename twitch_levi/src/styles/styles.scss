@@ -1,0 +1,273 @@
+html body{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  color: white;
+  background-color: #17141f;
+  max-height: 100%;
+  overflow:hidden;
+}
+
+nav{
+  width: 100%;
+  padding: 0 1%;
+  background-color: #392e5c;
+  height: 8vh;
+
+  ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    list-style-type : none;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+
+    li{
+      min-width: 70px;
+      margin: auto 1%;
+      width: auto;
+      a{
+        color: #9d9d9d;
+        text-decoration: none;
+      }
+
+      a:visited{
+        text-decoration: none;
+        color:#9d9d9d;
+      }
+      a:active{
+        text-decoration: none;
+        color:#FFF;
+      }
+      a:link{
+        color:#FFF;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: #FFF;
+        text-decoration: none;
+      }
+
+      img{
+        display: inline;
+      }
+      h5{
+        padding-left: 8px;
+        display: inline;
+      }
+    }
+
+    li:last-child{
+      margin-left: auto;
+    }
+
+    li:first-child{
+      padding: 0;
+    }
+  }
+
+  img{
+    display: inline;
+  }
+}
+
+
+.LeftSideBar{
+  height: 92vh;
+  background-color: #17141f;
+  flex: 1;
+  position: relative;
+
+  div{
+    padding: 0 8%;
+
+    hr{
+      margin: 0;
+    }
+
+    div{
+      padding: 0;
+
+
+      img{
+        float: left;
+        margin-right: 4%;
+      }
+      h5, h6{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.Content{
+  border-left: 1px solid rgb(218, 216, 222);
+  flex: 5;
+}
+
+.GameContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 2%;
+  justify-content: space-around;
+  height: 92vh;
+  overflow-y: auto;
+
+  // For Flexbox truncating text = https://css-tricks.com/flexbox-truncated-text/
+  div{
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 15%;
+    margin: 2% 2%;
+    // max-width: 20%;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.MoreOrLessContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start
+
+  h6{
+    flex:1;
+  }
+
+  h6:hover{
+    color: #6441A4;
+  }
+}
+
+.ShowMore{
+  margin-left:auto;
+}
+
+.hideText{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.LeftPaneFormBox{
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10%;
+  background-color: #17141f;
+  border-top: 1px solid rgb(218, 216, 222);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input{
+    background-color: #17141f;
+  }
+}
+
+.UserContentContainer{
+  overflow: auto;
+  height: 90%;
+  width: 100%;
+  padding: 0 8%;
+
+}
+
+.PageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.clickable{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transition: border-bottom .2s;
+
+
+  a{
+    flex:1
+  }
+}
+
+.clickable:hover{
+  border-bottom: 5px solid #6441a4;
+}
+
+.StreamContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 2%;
+  justify-content: space-around;
+  height: 92vh;
+  overflow-y: auto;
+  div{
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 21%;
+    margin: 2% 2%;
+
+    a{
+      color: #9d9d9d;
+      text-decoration: none;
+    }
+
+    a:visited{
+      text-decoration: none;
+      color:#9d9d9d;
+    }
+    a:active{
+      text-decoration: none;
+      color:#FFF;
+    }
+    a:link{
+      color:#FFF;
+      text-decoration: none;
+    }
+
+    a:hover{
+      color: #FFF;
+      text-decoration: none;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(56, 37, 92);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
