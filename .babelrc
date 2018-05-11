@@ -1,6 +1,8 @@
 {
   "presets": [
-    ["env"],
+    ["env", {
+      "modules": false
+      }],
     // webpack understands the native import syntax, and uses it for tree shaking
 
     "react"
