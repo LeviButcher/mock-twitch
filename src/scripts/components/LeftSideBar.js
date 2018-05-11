@@ -69,62 +69,62 @@ export default class LeftSideBar extends React.Component{
 var FollowedChannels = [
     {
         "Name":"Brownman",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Quantum of Solace"
     },
     {
         "Name":"Ninja",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Fortnight"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Brownman",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Quantum of Solace"
     },
     {
         "Name":"Ninja",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Fortnight"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
     {
         "Name":"Bob Ross",
-        "Pic":"./src/images/userPic.jpg",
+        "Pic":"./images/userPic.jpg",
         "Game":"Painting Bushes"
     },
 ];
