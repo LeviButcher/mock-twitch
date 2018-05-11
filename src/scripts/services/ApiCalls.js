@@ -9,6 +9,8 @@ const header = {
     })
 };
 
+
+"use strict";
 async function CallApi(url){
     let data;
 
